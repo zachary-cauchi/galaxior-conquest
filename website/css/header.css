@@ -1,0 +1,102 @@
+header {
+    margin-right: auto;
+    margin-left: auto;
+    width: 960px;
+    height: 90px;
+    background-color: #283742;
+}
+
+/*
+border margin
+*/
+#logoContainer,
+#navbar 
+{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+/*
+Formatting of aesthetic elements
+*/
+
+#content {
+    height: 500px;
+}
+
+#logoContainer {
+    background-color: aqua;
+    height: inherit;
+    display: inline;
+    position: relative;
+    float:left;
+    width: 220px;
+}
+
+/*
+Navigation bar
+*/
+
+#navbar {
+    margin-top: 0;
+    display: inline-table;
+    flex-wrap: wrap;
+    width: 460px;
+    height: 90px;
+    
+}
+
+#navbar > ul {
+    height: inherit;
+    align-self: center;
+    overflow: hidden;
+    list-style-type: none;
+    margin-top: 0;
+    width: inherit;
+    display: table;
+    
+    -webkit-margin-start: 0;
+    -webkit-margin-end: 0;
+    -webkit-padding-start: 0;
+}
+
+#navbar > ul > li {
+    background-color: #9ec6e5;
+    position:relative;
+    text-align: center;
+    display: table-cell;
+    height: inherit;
+    vertical-align: middle;    
+}
+
+#navbar > ul > li > a {
+    display: block;
+    height: inherit;
+    line-height: 90px;
+}
+
+#navbar > ul > li:hover {
+    background-color: #6e96b5;
+}
+
+/*
+    Sign up and login buttons
+*/
+#accountButtonsContainer {
+    display: inline-block;
+    height: inherit;
+    width: 100px;
+    float: right;
+    margin-right: 10px;
+}
+
+.accountButtons {
+    line-height: 45px;
+    text-align: center;
+    background-color: darkturquoise;
+    border-radius: 3px;
+}
+
+.accountButtons > a {
+    display: block;
+}

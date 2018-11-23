@@ -1,0 +1,44 @@
+body {
+    padding-bottom: 10px;
+}
+
+#loginContainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 220px;
+    height: 220px;
+    border-radius: 5px;
+    background-color: aqua;
+}
+
+#errorDisplay {
+    margin-left: auto;
+    margin-right: auto;
+    width: 340px;
+}
+
+h1 {
+    padding-left: 10px;
+}
+
+form {
+    text-align: center;
+}
+
+form > p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+form > input {
+    width: 140px;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+#submitButton {
+    margin-top: 20px;
+    width: 60px;
+}

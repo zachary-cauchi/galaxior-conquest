@@ -1,0 +1,25 @@
+html {
+    height: 100%;
+}
+
+body {
+    min-width: 960px;
+    min-height: 100%;
+    background: rgb(0,0,0);
+    background: -moz-radial-gradient(center, ellipse cover, rgb(0,0,0) 0%, rgb(0,6,70) 97%, rgb(0,0,0) 100%);
+    background: -webkit-radial-gradient(center, ellipse cover, rgb(0,0,0) 0%,rgb(0,6,70) 97%,rgb(0,0,0) 100%);
+    background: radial-gradient(ellipse at center, rgb(0,0,0) 0%,rgb(0,6,70) 97%,rgb(0,0,0) 100%);
+    */
+}
+
+#mainContainer {
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+    height: 20px;
+}
+
+h1, h2, h3 {
+    @import url('../fonts/Orbitron/Orbitron-Bold.ttf');
+    font-family: 'Orbitron', sans-serif;
+}

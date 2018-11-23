@@ -1,0 +1,84 @@
+{"frames": [
+
+{
+	"filename": "death-state-1",
+	"frame": {"x":0,"y":0,"w":45,"h":21},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":45,"h":21},
+	"sourceSize": {"w":45,"h":21}
+},
+{
+	"filename": "death-state-2",
+	"frame": {"x":0,"y":21,"w":45,"h":21},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":45,"h":21},
+	"sourceSize": {"w":45,"h":21}
+},
+{
+	"filename": "death-state-3",
+	"frame": {"x":0,"y":42,"w":45,"h":21},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":45,"h":21},
+	"sourceSize": {"w":45,"h":21}
+},
+{
+	"filename": "death-state-4",
+	"frame": {"x":0,"y":63,"w":45,"h":21},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":45,"h":21},
+	"sourceSize": {"w":45,"h":21}
+},
+{
+	"filename": "death-state-5",
+	"frame": {"x":0,"y":84,"w":45,"h":21},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":45,"h":21},
+	"sourceSize": {"w":45,"h":21}
+},
+{
+	"filename": "death-state-6",
+	"frame": {"x":0,"y":105,"w":45,"h":21},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":45,"h":21},
+	"sourceSize": {"w":45,"h":21}
+},
+{
+	"filename": "destroyed-turret",
+	"frame": {"x":0,"y":126,"w":45,"h":21},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":45,"h":21},
+	"sourceSize": {"w":45,"h":21}
+},
+{
+	"filename": "turret-larger",
+	"frame": {"x":0,"y":147,"w":45,"h":21},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":45,"h":21},
+	"sourceSize": {"w":45,"h":21}
+},
+{
+	"filename": "turret-shielded",
+	"frame": {"x":0,"y":168,"w":47,"h":23},
+	"rotated": false,
+	"trimmed": false,
+	"spriteSourceSize": {"x":0,"y":0,"w":47,"h":23},
+	"sourceSize": {"w":47,"h":23}
+}],
+"meta": {
+	"app": "http://www.codeandweb.com/texturepacker",
+	"version": "1.0",
+	"image": "turret.png",
+	"format": "RGBA8888",
+	"size": {"w":47,"h":191},
+	"scale": "1",
+	"smartupdate": "$TexturePacker:SmartUpdate:1c7db5a1e8f276b22556a68114fb009f:2ade2673a90ca45d649bfb26688383c5:26057a831b32959680a28025ef05a3b1$"
+}
+}

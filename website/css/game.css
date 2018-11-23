@@ -1,0 +1,32 @@
+.sideContainer {
+    display: inline-block;
+    width: 230px;
+    height: 360px;
+    background-color: firebrick;
+}
+
+#messageContainer {
+    margin-left: auto;
+    float: left;
+}
+
+#statsContainer {
+    margin-right: auto;
+    float: right;
+}
+
+#gameContainer {
+    display: inline-block;
+    position: relative;
+    margin-left: 80px;
+    margin-right: 80px;
+    width: 800px;
+    height: 600px;
+}
+
+#mainContainer {
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1280px;
+}
