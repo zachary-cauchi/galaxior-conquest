@@ -1,0 +1,24 @@
+{
+  "jsFiles": [
+    "loaders/loaders.js",
+    "loaders/asset-loader.js",
+    "game/intro.js",
+    "game/config.js",
+	"game/object-scripts/ally-fighter.js",
+	"game/object-scripts/fighter.js",
+	"game/object-scripts/flag-ship.js",
+	"game/object-scripts/killable.js",
+	"game/object-scripts/player.js",
+	"game/scripts/ai-manager.js",
+	"game/scripts/attack-handler.js",
+    "game/states/boot.js",
+	"game/states/assault.js",
+    "game/states/play.js",
+    "game/post-states.js",
+    "game/outro.js",
+	"utils/account-handler.js",
+	"utils/account.js",
+	"utils/storage-handler.js",
+	"utils/utilities.js"
+  ]
+}

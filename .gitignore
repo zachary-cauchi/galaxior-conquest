@@ -1,4 +1,31 @@
-#OS X hidden files
-.DS_STORE
+# osx
+.DS_Store
 ._.DS_STORE
+*/.DS_STORE
+*/._.DS_STORE
+Icon?
 ._*
+.Spotlight-V100
+.Trashes
+
+# Sublime
+*.sublime-project
+*.sublime-workspace
+
+# nodejs npm modules
+/node_modules
+
+# sublime
+.jshintrc
+
+# Legacy website files
+src/static/website/*
+src/static/website.*
+
+# Build files
+/build/*
+build.min.js
+
+# Phaser files
+# phaser.js
+# phaser.min.js

@@ -1,0 +1,45 @@
+{
+  "images": [
+    {
+      "name": "background",
+      "path": "img/background.png"
+    }, {
+      "name": "dude",
+      "path": "img/dude.png"
+    }, {
+      "name": "spaceBG",
+      "path": "img/game/deep-space.jpg"
+    }, {
+      "name": "allyFighter",
+      "path": "img/game/entities/ally-fighter/alive.png"
+    }, {
+      "name": "flagShip",
+      "path": "img/game/entities/flag-ship/sprites/flag-ship.png"
+    }, {
+      "name": "flagShipDestroyed",
+      "path": "img/game/entities/flag-ship/sprites/flag-ship-dead.png"
+    }, {
+      "name": "turretLaser",
+      "path": "img/game/particles/flak-laser.png"
+    }, {
+      "name": "burstShot",
+      "path": "img/game/particles/burst-shot.png"
+    }
+  ],
+
+  "atlases": [
+    {
+      "name": "playerShip",
+      "image": "img/game/entities/player/player.png",
+      "json": "img/game/entities/player/player.json"
+    }, {
+      "name": "basicTurret",
+      "image": "img/game/entities/turret/turret.png",
+      "json": "img/game/entities/turret/turret.json"
+    }, {
+      "name": "shieldGenerator",
+      "image": "img/game/entities/flag-ship/shield-generator/shield-generator.png",
+      "json": "img/game/entities/flag-ship/shield-generator/shield-generator.json"
+    }
+  ]
+}
