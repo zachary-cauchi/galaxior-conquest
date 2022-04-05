@@ -51,7 +51,7 @@ service / on new http:Listener(port) {
 
             error? clientResponse = caller->respond(res);
             if clientResponse is error {
-                log:printError("unable respond back", clientResponse);
+                log:printError("unable to respond back", clientResponse);
             }
             return;
         }
