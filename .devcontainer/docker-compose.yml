@@ -6,16 +6,14 @@ services:
     volumes:
       - ..:/workspace
     stdin_open: true
+    network_mode: service:db
 
   db:
-    image: mysql
+    image: mysql/mysql-server:latest
     command: --default-authentication-plugin=mysql_native_password
     restart: always
     environment:
-      MYSQL_USER: ballerina-user
-      MYSQL_PASSWORD: ballerina-pass
-      MYSQL_ROOT_PASSWORD: mysql-root
-
-  adminer:
-    image: adminer
-    restart: always
+      MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
+      MYSQL_DATABASE: ${MYSQL_DATABASE}
+      MYSQL_USER: ${MYSQL_USER}
+      MYSQL_PASSWORD: ${MYSQL_PASSWORD}

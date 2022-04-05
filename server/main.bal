@@ -1,5 +1,6 @@
 import ballerina/io;
 
+import server.main_db as _;
 import server.web as _;
 
 public function main() {

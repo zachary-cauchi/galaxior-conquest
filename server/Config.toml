@@ -1,3 +1,10 @@
 [server.web]
 serveDir = "../www"
 port = 9090
+
+[server.main_db]
+USER="root"
+PASSWORD="mysql-root"
+HOST="localhost"
+PORT=3306
+DATABASE="Galaxior"

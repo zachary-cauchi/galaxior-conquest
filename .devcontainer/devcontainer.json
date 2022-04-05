@@ -12,10 +12,10 @@
 
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
-		"WSO2.ballerina"
-	],
-	"forwardPorts": [
-		3306,
-		8080
+		"WSO2.ballerina",
+		"formulahendry.vscode-mysql"
 	]
+	// "forwardPorts": [
+	// 	3306
+	// ]
 }
